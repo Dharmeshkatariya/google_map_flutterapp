@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_map_flutter/convert_address.dart';
 import 'package:google_map_flutter/home_screen.dart';
+import 'package:google_map_flutter/polygon_google_map.dart';
+import 'package:google_map_flutter/polyline_google_map.dart';
 import 'package:google_map_flutter/tracking_location.dart';
+import 'package:google_map_flutter/uber_style_map/flutter_uber.dart';
 import 'package:google_map_flutter/user_cureeent%20_location.dart';
 
 import 'custom_info_window.dart';
@@ -25,7 +28,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: TrackingLocationGoogleMapScreen());
+        home: UberMapScreen());
 
 
   }
